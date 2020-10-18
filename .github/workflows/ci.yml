@@ -41,4 +41,5 @@ jobs:
       - run: yarn lint
       - run: yarn typecheck
       - run: yarn test
+      - run: cp .env.example .env
       - run: yarn build

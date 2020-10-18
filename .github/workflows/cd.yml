@@ -47,4 +47,3 @@ jobs:
       - run: docker build --tag registry.heroku.com/$HEROKU_APP/web .
       - run: docker push registry.heroku.com/$HEROKU_APP/web
       - run: heroku container:release web --app $HEROKU_APP
-
