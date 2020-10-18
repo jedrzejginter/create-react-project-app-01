@@ -37,7 +37,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-modules-
 
-      - run: yarn --pure-lockfile
+      - run: yarn --pure-lockfile --ignore-optional
       - run: yarn lint
       - run: yarn typecheck
       - run: yarn test
