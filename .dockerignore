@@ -1,0 +1,16 @@
+# Applicable when building docker image locally.
+node_modules
+.next
+out
+
+.env.example
+.gitignore
+.nvmrc
+Dockerfile
+eslint.config.js
+jest.*
+lint-staged.*
+next-env.d.ts
+*.md
+prettier.*
+tsconfig.eslint.json

@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "ms-azuretools.vscode-docker",
+    "wayou.vscode-todo-highlight"
+  ]
+}
