@@ -8,6 +8,7 @@ RUN node scripts/rewrite-package-json.js
 RUN rm -rf scripts
 RUN yarn --pure-lockfile
 COPY . .
+RUN mv .env.production .env
 
 FROM web-base AS web-production
 RUN yarn build

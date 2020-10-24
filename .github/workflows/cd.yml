@@ -39,7 +39,7 @@ jobs:
 
       - name: Make env file
         run: |
-          cat > .env << EOF
+          cat > .env.production << EOF
           API_URL=http://localhost:3000
           EOF
 
